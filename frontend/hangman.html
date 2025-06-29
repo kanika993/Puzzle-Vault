@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hangman Game</title>
+    <link rel="stylesheet" href="hangman.css">
+</head>
+<body>
+    <!-- Home Button -->
+    <a href="index.html" class="home-btn">⬅ Home</a>
+    <h1>🧩 Hangman Game</h1>
+    <canvas id="hangmanCanvas"></canvas>
+    <p id="wordDisplay">_ _ _ _ _</p>
+    <p id="message"></p>
+
+    <div id="lettersGrid"></div>
+
+    <button onclick="restartGame()">🔄 Restart</button>
+
+    <script src="hangman.js"></script>
+</body>
+</html>

@@ -1,0 +1,89 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background: linear-gradient(135deg, #ffafbd, #ffc3a0);
+    margin: 0;
+}
+
+h1 {
+    font-size: 36px;
+    color: #333;
+}
+
+/* Puzzle Container */
+#puzzle-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+/* Blanks */
+.blank {
+    width: 50px;
+    height: 50px;
+    border-bottom: 3px solid #333;
+    text-align: center;
+    font-size: 30px;
+}
+
+/* Letters Container */
+#letters-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px;
+    justify-content: center;
+    margin-top: 30px;
+    max-width: 300px;
+    margin: auto;
+}
+
+.letter {
+    font-size: 24px;
+    background: white;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 2px solid #333;
+    text-align: center;
+}
+
+.letter:hover {
+    background-color: #ffafbd;
+}
+
+/* Buttons */
+button {
+    font-size: 18px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px 0;
+    background-color: #4caf50;
+    color: white;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #388e3c;
+}
+
+/* Home Button */
+.home-btn {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    text-decoration: none;
+    font-size: 18px;
+    background-color: #ff6b6b;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.home-btn:hover {
+    background-color: #ee5253;
+}
